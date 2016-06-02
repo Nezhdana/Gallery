@@ -1,0 +1,46 @@
+table {
+border-spacing: 0;
+empty-cells: hide;
+}
+td {
+padding: 10px 20px;
+text-align: center;
+border-bottom: 2px solid Cyan;
+border-style: inset; //вдавленная граница
+transition: all 0.5s linear;
+}
+td:first-child {
+text-align: left;
+color: Black;
+font-weight: bold;
+}
+th {
+padding: 10px 20px;
+color: Blue;
+border-bottom: 2px solid LightSkyBlue;
+border-style: double;
+}
+td:nth-child(even) {
+background: Gold;
+
+}
+td:nth-child(odd) {
+background: Gold;
+}
+th:nth-child(even)  {
+background: Gold;
+}
+th:nth-child(odd)  {
+background: Gold;
+}
+.round-top {
+border-top-left-radius: 5px;
+}
+.round-bottom {
+border-bottom-left-radius: 5px;
+}
+tr:hover td{
+background: Yellow;
+font-weight: bold;
+cursor: pointer;
+}
